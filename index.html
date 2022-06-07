@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://localhost:3000/socket.io/socket.io.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Real-time chat</title>
+</head>
+<body>
+    <!-- Using data attributes in order to divide css and js  -->
+    <div class="chat-container" data-chat-container>
+        <div class="messages" data-messages-container>
+
+        </div>
+        <form class="form" data-form>
+            <label class="inputTag">
+                <img src="/assets/paper-clip_icon.svg" alt="">
+                <input class="choose-image" data-images type="file" id="img" name="img" accept="image/*">
+            </label>
+
+            <input type="text" class="input" data-input>
+
+            <button class="button" data-button>Send</button>
+        </form>
+        
+        
+    </div>
+    
+</body>
+</html>

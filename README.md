@@ -1,3 +1,3 @@
 # Real time chat using socket.io
 
-Make sure to read package.json
+Spent 4-6 hours on the project
